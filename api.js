@@ -13,10 +13,6 @@ async function getCoins() {
         }
 console.log(datas)
 
-if(datas.current_price){
-      if(datas.current_price >= 10000){
-    alert("its here")  }
-   }
         html +=
             `<div class=""> 
         <h2>${datas,datasof}<h2/>
